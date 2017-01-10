@@ -5,7 +5,6 @@
     </head>
     <body>
      <table border="2" width="400" height="100" bordercolor="blue" bgColor="#88cc66" cellspacing="0" cellpadding="2" rules="all">
-         <caption>你大爷</caption>
          <tr bgColor="red" align="center">
              <th>星期日</th> 
              <th>星期一</th>
