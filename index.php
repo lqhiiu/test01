@@ -1,26 +1,27 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>用户注册</title>
-</head>
-<body>
-	<font size="5" color="red">欢迎注册php.cn</font>
-	<form name="user" method="get" action="index.php">
-		用户名：<input type="text" name="username" value="hello"/> 
-		<br /> 
-		密码：<input type="password" name="userpwd" value="12345678" /> 
-		<br>
-		性别：<input type="radio" name="sex" value="男" checked = "checked">男
-			<input type="radio" name="sex" value="女">女
-			<br>
-		爱好：<input type="checkbox" name="hobby" value="运动">运动
-			<input type="checkbox" name="hobby" value="看电影">看电影
-			<input type="checkbox" name="hobby" value="宅着">宅着
-			<input type="checkbox" name="hobby" value="编程">编程
-		
-		<br /> 
-		<input type="submit" value="提交信息" />
-	</form>
-</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>php.cn</title>
+    </head>
+    <style type="text/css">
+        .box {
+            
+            height:30px;
+            border:1px solid red;
+            padding:10px;
+        }
+        .box a:link,.box a:visited{color:#66ff88;text-decoration:none; }/*将“正常状态”和“访问过的状态”合二为一。*/
+        .box a:hover{color:#ff0000;text-decoration:underline;}/*“鼠标放上”单做一种效果*/
+       
+    </style>
+    <body>
+        <div class="box">
+            <a href="#">欢迎来到php.cn</a>|
+            <a href="#">首页</a>|
+            <a href="#">课程</a>|
+            <a href="#">问答</a>|
+            <a href="#">手记</a>
+        </div>
+    </body>
 </html>

@@ -20,7 +20,23 @@
 			<input type="checkbox" name="hobby" value="编程">编程
 		
 		<br /> 
-		<input type="submit" value="提交信息" />
+		
+		所在城市：
+		<select name="city">
+		<option value="厦门">厦门</option>
+		<option value="深圳">深圳</option>
+		<option value="杭州">杭州</option>
+		<option value="武汉">武汉</option>
+		</select>
+		
+		<br>个人介绍
+		<br>
+		<textarea name="selfinfo" rows="12" cols=50>个人介绍</textarea>
+		
+		<br>
+		确认无误？<input type="submit" value="提交信息" />
+		<input type="reset" value="重填一次"/>
+		<input type="button" onclick="javascript:window.close()" value="关闭窗口"/>
 	</form>
 </body>
 </html>
